@@ -44,7 +44,7 @@ def main():
 
         except urllib2.URLError, e:
             ret[url] = e
-    print ret
+    return ret
 
 
     
